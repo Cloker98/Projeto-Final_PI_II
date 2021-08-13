@@ -29,7 +29,10 @@ Community Edition é gratuita e de código aberto, licenciado sob Apache 2.0. El
 ## Solução para problemas identificados:
 
 ## Linguagens de programação:
-Java, HTML, CSS, Javascript.  
++ ### Java - linguagem orientada a objetos, utilizada no Backend;
++ ### HTML (HyperText Markup Language) - "Linguagem de Marcação de Hipertexto" é a linguagem de marcação utilizada na construção de páginas na Web;
++ ### CSS (Cascading Style Sheet) - "Linguagem de estilo" é usado para estilizar elementos escritos em uma linguagem de marcação como HTML;
++ ### Javascript - linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
 
 ## Um post possui estes campos:
 
@@ -66,20 +69,21 @@ Java, HTML, CSS, Javascript.
 
 ## Como rodar a aplicação:
 
-### Java 
+1) Baixe este repositório;
+2) Instale Java JDK na sua máquina, cliclando no link: "https://www.oracle.com/br/java/technologies/javase-downloads.html";
+3) Descarregue o Maven no seu computador, acessando o link "https://maven.apache.org/download.cgi";
+4) Certifique-se que o JDK e o Maven esteja instalado na sua máquina;
+5) Entre no diretório do projeto no prompt de comando.
 
-Suitable for applications that have their own bundler and send the JS bundle
-directly to a client (without publishing it to npm). Think of a user-facing app
-or website, like an email client, a CRM, a landing page or a blog with
-interactive elements, using React/Vue/Svelte lib or vanilla JS.
+### Instalação
 
 <details><summary><b>Mostrar instruções</b></summary>
 
-1. Install the preset
+1. Entre no diretório do projeto e digite o comando `mvn clean install`:
   
 
     ```sh
-    $ npm install --save-dev size-limit @size-limit/file
+    C:\Users\aluno\projeto-final>mvn clean install
     ```
 
 2. Add the `size-limit` section and the `size` script to your `package.json`:
@@ -132,18 +136,6 @@ interactive elements, using React/Vue/Svelte lib or vanilla JS.
    to add one — start with [Travis CI].
 
 </details>
-
-### Maven
-
-## Como rodar a aplicação:
-
-1) run shell: composer install
-2) run shell: php artisan key:generate
-3) create new Schema MySql
-4) create file .env (can copy from .env.example)
-5) configure your database variables in .env
-6) run shell: php artisan migrate
-7) run shell: php artisan serve
 
 ## Como usar o blog:
 
