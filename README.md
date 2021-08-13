@@ -18,6 +18,7 @@ Porém, dentro do contexto Cristão fica cada vez mais difícil encontrar materi
 Diante do exposto foi desenvolvida uma aplicação intuitiva ao usuário e de fácil utilização.
 
 ## Visão de negócio:
+(Benefícios)
 
 ## Ambiente de desenvolvimento:
 ### IntelliJ IDEA Community 
@@ -25,8 +26,29 @@ Diante do exposto foi desenvolvida uma aplicação intuitiva ao usuário e de f�
 Community Edition é gratuita e de código aberto, licenciado sob Apache 2.0. Ela fornece todos os recursos básicos para desenvolvimento JVM e Android. Inicialmente iniciei o projeto no Eclipse, porém após conversar com os meus colegas, acabei optando utilizar esta IDE. O IntelliJ acabou sendo muito mais fácil de usar em comparação com o Eclipse. A curva de aprendizado é muito mais rápida no IntelliJ, o que torna o desenvolvimento mais fácil e natural. Preenchimento de código, menus suspensos, visualização rápida, assistentes de projeto, etc. Todas essas coisas são possíveis tanto no Eclipse quanto no IntelliJ, mas a experiência do usuário no IntelliJ é muito mais satisfatória.
 
 ## Ferramentas para o desenvolvimento:
+(Frameworks: Front-end, Web App, versionador de código, Web Deploy, BD, entre outros)
+
+o framework Spring MVC, com a implementação de uma camada de segurança utilizando Spring Security.
+
+Contando também com a instalação do template Thymeleaf para renderizar as páginas html, e do Bootstrap para construir o Layout das páginas HTML.
+
+Além disto, o emprego do PostgreSQL como banco de dados. Por fim realizar o deploy da aplicação em um cloud service (Heroku, IBM Cloud, AWS Elastic Beanstalk) ainda a ser definido.
+
+
+### Framework Spring MVC
+O Spring MVC é um dos frameworks Java mais conhecido e utilizado. Esse framework implementa um grande número de funções, como injeção de dependência, persistência de dados e uma implementação para o padrão MVC para a criação de aplicações WEB.
+O MVC é um padrão de arquitetura de aplicação cujo objetivo é separar o projeto em três camadas independentes, que são o modelo (model), a visão (view) e o controlador (controller). 
+
+Para a camada  Model,  que é a parte de manipulação de dados, 
+
+Para a camada View, que é a parte de interação com o usuário, 
+
+Para a camada Controller, que é a responsável por receber todas as requisições do usuário, 
+
+
 
 ## Solução para problemas identificados:
+(Grupo de entregas/Componentes que garantem que o projeto foi concluído)
 
 ## Linguagens de programação:
 + ### Java
@@ -146,7 +168,7 @@ Linguagem de programação interpretada estruturada, de script em alto nível co
 1) Acesse a aplicação localmente pelo endereço "http://localhost:8080/posts", ou pelo site em que estiver hospedado;
 2) Clique na postagem que tiver interesse em ler. Você pode retornar a página inicial clicando em **"posts"**;
 3) Para criar uma nova publicação, clique no botão **"Novo Post"**, o que irá te redirecionar a página de login do administrador;
-4) Insira o login e a senha de administrador definida no arquivo **"securityconfig"**;
+4) Insira o login e a senha de administrador definida no arquivo **"SecurityConfig.java"** que se encontra no diretório **"src\main\java\com.spring.christianblog\configuration"**;
 5) Preencha os campos obrigatórios: título, autor e o texto. Após isto, basta clica no botão **"publicar"** e a sua postagem irá aparecer no blog.
 
 <center><img src="https://user-images.githubusercontent.com/42324527/129298983-f0ffd47b-cbe9-412b-9b54-325dd05d39aa.gif"></center>
