@@ -29,10 +29,14 @@ Community Edition é gratuita e de código aberto, licenciado sob Apache 2.0. El
 ## Solução para problemas identificados:
 
 ## Linguagens de programação:
-+ ### Java - linguagem orientada a objetos, utilizada no Backend;
-+ ### HTML (HyperText Markup Language) - "Linguagem de Marcação de Hipertexto" é a linguagem de marcação utilizada na construção de páginas na Web;
-+ ### CSS (Cascading Style Sheet) - "Linguagem de estilo" é usado para estilizar elementos escritos em uma linguagem de marcação como HTML;
-+ ### Javascript - linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
++ ### Java
+Linguagem orientada a objetos, utilizada no Backend.
++ ### HTML (HyperText Markup Language)
+Linguagem de Marcação de Hipertexto, é utilizada na construção de páginas na Web.
++ ### CSS (Cascading Style Sheet)
+Linguagem de estilo usada para estilizar elementos escritos em uma linguagem de marcação como HTML.
++ ### Javascript
+Linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
 
 ## Um post possui estes campos:
 
