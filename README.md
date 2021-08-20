@@ -34,7 +34,6 @@ Contando também com a instalação do template Thymeleaf para renderizar as pá
 
 Além disto, o emprego do PostgreSQL como banco de dados. Por fim realizar o deploy da aplicação em um cloud service (Heroku, IBM Cloud, AWS Elastic Beanstalk) ainda a ser definido.
 
-
 ### Framework Spring MVC
 O Spring MVC é um dos frameworks Java mais conhecido e utilizado. Esse framework implementa um grande número de funções, como injeção de dependência, persistência de dados e uma implementação para o padrão MVC para a criação de aplicações WEB.
 O MVC é um padrão de arquitetura de aplicação cujo objetivo é separar o projeto em três camadas independentes, que são o modelo (model), a visão (view) e o controlador (controller). 
@@ -45,7 +44,22 @@ Para a camada View, que é a parte de interação com o usuário,
 
 Para a camada Controller, que é a responsável por receber todas as requisições do usuário, 
 
+### Spring Security
 
+### Thymeleaf
+Thymeleaf é um mecanismo motor lado do servidor (server-side) Java para ambientes Web e independentes.
+
+O principal objetivo do Thymeleaf é trazer modelos naturais elegantes para o seu fluxo de trabalho de desenvolvimento - HTML que pode ser exibido corretamente em navegadores e também funcionar como protótipos estáticos, permitindo uma colaboração mais forte em equipes de desenvolvimento.
+
+Com módulos para Spring Framework, um host de integrações com suas ferramentas favoritas e a capacidade de conectar sua própria funcionalidade, o Thymeleaf é ideal para o desenvolvimento da web HTML5 JVM moderno - embora haja muito mais que ele pode fazer.
+
+### Bootstrap
+O Bootstrap é o kit de ferramentas de front-end de código aberto mais popular do mundo, com ele você projeta e personaliza rapidamente sites responsivos para dispositivos móvei, sapresenta variáveis Sass e mixins, é um sistema de grids responsivo, possui diversos componentes pré-construídos e poderosos plug-ins de JavaScript.
+
+### PostgreSQL
+PostgreSQL é um poderoso sistema de banco de dados relacional de objeto de código aberto com mais de 30 anos de desenvolvimento ativo que lhe rendeu uma forte reputação de confiabilidade, robustez de recursos e desempenho.
+
+A comunidade da ferramenta oferece muitos lugares úteis para se familiarizar com a tecnologia, descobrir como ela funciona e encontrar oportunidades de carreira
 
 ## Solução para problemas identificados:
 (Grupo de entregas/Componentes que garantem que o projeto foi concluído)
@@ -96,10 +110,11 @@ Linguagem de programação interpretada estruturada, de script em alto nível co
 ## Como rodar a aplicação:
 
 1) Baixe este repositório;
-2) Instale Java JDK na sua máquina, cliclando no link: "https://www.oracle.com/br/java/technologies/javase-downloads.html";
-3) Descarregue o Maven no seu computador, acessando o link "https://maven.apache.org/download.cgi";
-4) Certifique-se que o JDK e o Maven esteja instalado na sua máquina;
-5) Entre no diretório do projeto no prompt de comando.
+2) Instale Java JDK na sua máquina, clicando no link: "https://www.oracle.com/br/java/technologies/javase-downloads.html";
+3) Descarregue o Maven no seu computador, acessando o link: "https://maven.apache.org/download.cgi";
+4) Faça o download do PostgreSQL, pelo link: "https://www.postgresql.org/download/";
+5) Certifique-se que o JDK, Maven e o PostgreSQL esteja instalado na sua máquina;
+6) Entre no diretório do projeto no prompt de comando.
 
 ### Instalação
 
@@ -111,55 +126,6 @@ Linguagem de programação interpretada estruturada, de script em alto nível co
     ```sh
     C:\Users\aluno\projeto-final>mvn clean install
     ```
-
-2. Add the `size-limit` section and the `size` script to your `package.json`:
-
-    ```diff
-    + "size-limit": [
-    +   {
-    +     "path": "dist/app-*.js"
-    +   }
-    + ],
-      "scripts": {
-        "build": "webpack ./webpack.config.js",
-    +   "size": "npm run build && size-limit",
-        "test": "jest && eslint ."
-      }
-    ```
-
-3. Here’s how you can get the size for your current project:
-
-    ```sh
-    $ npm run size
-
-      Package size: 30.08 kB with all dependencies, minified and gzipped
-    ```
-
-4. Now, let’s set the limit. Add 25% to the current total time and use that as
-   the limit in your `package.json`:
-
-    ```diff
-      "size-limit": [
-        {
-    +     "limit": "35 kB",
-          "path": "dist/app-*.js"
-        }
-      ],
-    ```
-
-5. Add the `size` script to your test suite:
-
-    ```diff
-      "scripts": {
-        "build": "webpack ./webpack.config.js",
-        "size": "npm run build && size-limit",
-    -   "test": "jest && eslint ."
-    +   "test": "jest && eslint . && npm run size"
-      }
-    ```
-
-6. If you don’t have a continuous integration service running, don’t forget
-   to add one — start with [Travis CI].
 
 </details>
 
