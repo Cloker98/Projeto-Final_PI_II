@@ -1,5 +1,5 @@
 # Projeto-Final_PI_II
-# Blog Cristão usando Spring MVC, Spring Security, Thymeleaf, Boostrap e um Cloud Service.
+# Blog Cristão usando Spring MVC, Spring Security, Thymeleaf, Boostrap.
 
 ![Tela1](https://user-images.githubusercontent.com/42324527/129298577-0605843b-e21c-4eea-83fa-208a6aab2b2d.png)
 
