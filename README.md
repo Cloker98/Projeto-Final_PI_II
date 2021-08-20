@@ -18,7 +18,8 @@ Porém, dentro do contexto Cristão fica cada vez mais difícil encontrar materi
 Diante do exposto foi desenvolvida uma aplicação intuitiva ao usuário e de fácil utilização.
 
 ## Visão de negócio:
-(Benefícios)
+Ao desenvolver um projeto utilizando um framework como o Spring Boot e o Spring MVC, você consegue aumentar a produção, reduzir as falhas e consegue criar um sistema escalável.
+No caso do
 
 ## Ambiente de desenvolvimento:
 ### IntelliJ IDEA Community 
@@ -35,6 +36,9 @@ Contando também com a instalação do template Thymeleaf para renderizar as pá
 Além disto, o emprego do PostgreSQL como banco de dados. Por fim realizar o deploy da aplicação em um cloud service (Heroku, IBM Cloud, AWS Elastic Beanstalk) ainda a ser definido.
 
 Spring boot = Spring MVC + Auto Configuration(Don't need to write spring.xml file for configurations) + Server(You can have embedded Tomcat, Netty, Jetty server).
+
+### Spring Boot
+O Spring Boot é um projeto que está dentro do ecossistema Spring, que ajuda a criar aplicações "stand-alone" (aplicações que dependem só do Java). Ajuda com as configurações iniciais da estrutura, com a organização. Facilita colocar o projeto em produção.
 
 ### Framework Spring MVC
 O Spring MVC é um dos frameworks Java mais conhecido e utilizado. Esse framework implementa um grande número de funções, como injeção de dependência, persistência de dados e uma implementação para o padrão MVC para a criação de aplicações WEB.
