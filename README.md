@@ -44,11 +44,11 @@ O Spring Boot é um projeto que está dentro do ecossistema Spring, que ajuda a 
 O Spring MVC é um dos frameworks Java mais conhecido e utilizado. Esse framework implementa um grande número de funções, como injeção de dependência, persistência de dados e uma implementação para o padrão MVC para a criação de aplicações WEB.
 O MVC é um padrão de arquitetura de aplicação cujo objetivo é separar o projeto em três camadas independentes, que são o modelo (model), a visão (view) e o controlador (controller). 
 
-Para a camada  Model,  que é a parte de manipulação de dados, 
+Para a camada  Model, que é a parte de manipulação de dados, é onde criamos os "posts" do blog.
 
-Para a camada View, que é a parte de interação com o usuário, 
+Para a camada View, que é a parte de interação com o usuário, as páginas HTML que são retornadas (front-end).
 
-Para a camada Controller, que é a responsável por receber todas as requisições do usuário, 
+Para a camada Controller, que é a responsável por receber todas as requisições do usuário (as requisições HTTP). 
 
 ### Spring Security
 Spring Security é uma estrutura de autenticação de controle de acesso poderosa e altamente personalizável. É o padrão para proteger aplicativos baseados em Spring. Ou seja, é uma estrutura que se concentra em fornecer autenticação e autorização para aplicativos Java.
@@ -70,6 +70,13 @@ A comunidade da ferramenta oferece muitos lugares úteis para se familiarizar co
 
 ## Solução para problemas identificados:
 (Grupo de entregas/Componentes que garantem que o projeto foi concluído)
+1) Iniciar uma aplicação com o Spring Boot, dependências instaladas e atualizadas;
+2) Camada Model, View e Controller configuradas;
+3) Layout do blog com o Bootstrap (página inicial);
+4) Renderizar página com o Thymeleaf;
+5) Página do Post completo;
+6) Formulário para criar um novo post;
+7) Spring security para autenticação de administrador do blog;
 
 ## Linguagens de programação:
 + ### Java
