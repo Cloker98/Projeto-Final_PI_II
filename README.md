@@ -34,6 +34,8 @@ Contando também com a instalação do template Thymeleaf para renderizar as pá
 
 Além disto, o emprego do PostgreSQL como banco de dados. Por fim realizar o deploy da aplicação em um cloud service (Heroku, IBM Cloud, AWS Elastic Beanstalk) ainda a ser definido.
 
+Spring boot = Spring MVC + Auto Configuration(Don't need to write spring.xml file for configurations) + Server(You can have embedded Tomcat, Netty, Jetty server).
+
 ### Framework Spring MVC
 O Spring MVC é um dos frameworks Java mais conhecido e utilizado. Esse framework implementa um grande número de funções, como injeção de dependência, persistência de dados e uma implementação para o padrão MVC para a criação de aplicações WEB.
 O MVC é um padrão de arquitetura de aplicação cujo objetivo é separar o projeto em três camadas independentes, que são o modelo (model), a visão (view) e o controlador (controller). 
@@ -45,13 +47,14 @@ Para a camada View, que é a parte de interação com o usuário,
 Para a camada Controller, que é a responsável por receber todas as requisições do usuário, 
 
 ### Spring Security
+Spring Security é uma estrutura de autenticação de controle de acesso poderosa e altamente personalizável. É o padrão para proteger aplicativos baseados em Spring. Ou seja, é uma estrutura que se concentra em fornecer autenticação e autorização para aplicativos Java.
 
 ### Thymeleaf
 Thymeleaf é um mecanismo motor lado do servidor (server-side) Java para ambientes Web e independentes.
 
-O principal objetivo do Thymeleaf é trazer modelos naturais elegantes para o seu fluxo de trabalho de desenvolvimento - HTML que pode ser exibido corretamente em navegadores e também funcionar como protótipos estáticos, permitindo uma colaboração mais forte em equipes de desenvolvimento.
+O principal objetivo do Thymeleaf é trazer modelos (templates) naturais elegantes para o seu fluxo de trabalho de desenvolvimento HTML, o template pode ser exibido corretamente em navegadores e também funcionar como protótipos estáticos, permitindo uma colaboração mais forte em equipes de desenvolvimento.
 
-Com módulos para Spring Framework, um host de integrações com suas ferramentas favoritas e a capacidade de conectar sua própria funcionalidade, o Thymeleaf é ideal para o desenvolvimento da web HTML5 JVM moderno - embora haja muito mais que ele pode fazer.
+Com módulos para Spring Framework, um host de integrações com suas ferramentas favoritas e a capacidade de conectar sua própria funcionalidade, o Thymeleaf é ideal para o desenvolvimento web moderno de HTML5 JVM.
 
 ### Bootstrap
 O Bootstrap é o kit de ferramentas de front-end de código aberto mais popular do mundo, com ele você projeta e personaliza rapidamente sites responsivos para dispositivos móvei, sapresenta variáveis Sass e mixins, é um sistema de grids responsivo, possui diversos componentes pré-construídos e poderosos plug-ins de JavaScript.
